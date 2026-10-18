@@ -1,0 +1,16 @@
+{
+"timeout": 2,   "json_report": "project7-results.json",
+  "csv_report": "project7-results.csv",
+  "targets": [
+    {
+      "host": "192.168.100.55",
+      "port": 22,
+      "expected": "open"
+    },
+    {
+      "host": "192.168.100.55",
+      "port": 80,
+      "expected": "closed"
+    }
+  ]
+}

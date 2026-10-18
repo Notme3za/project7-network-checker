@@ -1,0 +1,3 @@
+host,port,expected,actual,result,detail
+192.168.100.55,22,open,open,PASS,connection succeeded
+192.168.100.55,80,closed,closed,PASS,connection was refused

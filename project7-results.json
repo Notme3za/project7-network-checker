@@ -1,0 +1,18 @@
+[
+  {
+    "host": "192.168.100.55",
+    "port": 22,
+    "expected": "open",
+    "actual": "open",
+    "result": "PASS",
+    "detail": "connection succeeded"
+  },
+  {
+    "host": "192.168.100.55",
+    "port": 80,
+    "expected": "closed",
+    "actual": "closed",
+    "result": "PASS",
+    "detail": "connection was refused"
+  }
+]
